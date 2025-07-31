@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing Page Properti - Hunian modern strategis dan terjangkau untuk keluarga masa kini.">
+  <title>Landing Page Properti</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+  <header class="dark-toggle">
+    <label>
+      <input type="checkbox" id="darkModeToggle"> Dark Mode
+    </label>
+  </header>
+  
+  <section class="hero">
+    <div class="container">
+      <h1>Temukan Rumah Impian Anda</h1>
+      <p>Hunian modern, strategis, dan terjangkau untuk keluarga masa kini.</p>
+      <a href="#form" class="btn-utama">Lihat Unit Sekarang</a>
+    </div>
+  </section>
+
+  <section class="unit">
+    <div class="container">
+      <h2>Pilihan Tipe Rumah</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="assets/images/unit1.jpg" alt="Tipe 36">
+          <h3>Tipe 36</h3>
+          <p>2 Kamar tidur, 1 Kamar mandi, Carport</p>
+        </div>
+        <div class="card">
+          <img src="assets/images/unit2.jpg" alt="Tipe 45">
+          <h3>Tipe 45</h3>
+          <p>2+1 Kamar tidur, 2 Kamar mandi, Taman Belakang</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="kontak" id="form">
+    <div class="container">
+      <h2>Dapatkan Promo Terbatas</h2>
+      <form action="https://formsubmit.co/your@email.com" method="POST">
+        <input type="text" name="nama" placeholder="Nama Anda" required />
+        <input type="tel" name="telepon" placeholder="Nomor WhatsApp" required />
+        <textarea name="pesan" placeholder="Pesan / Minat Unit..."></textarea>
+        <button type="submit">Kirim Sekarang</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
